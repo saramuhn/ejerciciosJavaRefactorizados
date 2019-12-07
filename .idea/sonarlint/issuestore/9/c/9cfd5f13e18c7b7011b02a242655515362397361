@@ -1,0 +1,23 @@
+
+o
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.( Ì¨
+T
+squid:S106
+"9Replace this use of System.out or System.err by a logger.(™ŒÎıÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(æéÂÚüÿÿÿÿ
+g
+squid:S128+"LEnd this switch case with an unconditional break, return or throw statement.(ŠƒéÀúÿÿÿÿ
+O
+squid:S1064"9Replace this use of System.out or System.err by a logger.(é¶Ğ
+T
+squid:S1066"9Replace this use of System.out or System.err by a logger.(ğ“ûáúÿÿÿÿ
+T
+squid:S1069"9Replace this use of System.out or System.err by a logger.(Š­ÿûÿÿÿÿ
+T
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ä¯÷õÿÿÿÿÿ
+T
+squid:S106="9Replace this use of System.out or System.err by a logger.(¨Ë”îşÿÿÿÿ
+O
+squid:S106?"9Replace this use of System.out or System.err by a logger.(Š–í¥
+Lsquid:S1481"5Remove this unused "contadorSinVocal" local variable.(×Ù¸ó

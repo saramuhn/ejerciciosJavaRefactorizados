@@ -1,0 +1,13 @@
+
+c$squid:AssignmentInSubExpressionCheck".Extract the assignment out of this expression.(ÖÉ¸æøÿÿÿÿ
+o
+squid:S135"YReduce the total number of break and continue statements in this loop to use at most one.(Å¤•ÿ
+Usquid:S1854">Remove this useless assignment to local variable "opcionMenu".(ŠÂŽµ
+Usquid:S1854">Remove this useless assignment to local variable "opcionMenu".(ŠÂŽµ
+Zsquid:S1854">Remove this useless assignment to local variable "opcionMenu".(ÖÉ¸æøÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(õ­¦Ú
+O
+squid:S106#"9Replace this use of System.out or System.err by a logger.(¹žîª
+O
+squid:S106$"9Replace this use of System.out or System.err by a logger.(š®ÿ³

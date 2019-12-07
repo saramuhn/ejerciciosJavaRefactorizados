@@ -1,0 +1,23 @@
+
+O
+src/com/company/DiaLaboral.java,b\b\bb299493c17c2916116a285dde39fb4b7e5e6149
+J
+src/com/company/Frase.java,9\c\9cfd5f13e18c7b7011b02a242655515362397361
+J
+src/com/company/Vocal.java,5\9\59e50b0a2ddc46b871651739f622109c94fb763f
+X
+(src/com/company/persona/EjecutableP.java,b\0\b0e567325c0f7f2c101f250c057602e6ddf3b266
+Q
+!src/com/company/MenuRepetido.java,5\1\51b161cb76d27e8fad5f24cd981957045f1352cb
+I
+src/com/company/Main.java,4\a\4a831b10439099d44774d0ccc387e808deffaeab
+T
+$src/com/company/NumeroMayorCero.java,5\0\50447db7ef4dc0a3701395990945749fbaeb518a
+r
+Bsrc/com/company/electrodomesticoLavadoraTelevisor/EjecutableE.java,2\8\2892e5b0b87ff78de1dbacfa52607659ffa9bb7b
+O
+src/com/company/SinEspacio.java,3\5\35fa14bd005afe9b1c76c9d8268b975481e00618
+S
+#src/com/company/NumeroEstatico.java,c\9\c9970f24f673c2f6f39339e1bf1ac409c2f1a2f9
+R
+"src/com/company/NumeroConsola.java,2\a\2ad945468a9c6c5b6ae6c0f43b49963f53fb1dce
