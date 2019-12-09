@@ -1,14 +1,11 @@
 
-ˆ"squid:ClassVariableVisibilityCheck"UMake numeroUno a static final constant or non-public and provide accessors if needed.(Ëõ”šùÿÿÿÿ
-ƒ"squid:ClassVariableVisibilityCheck"UMake numeroDos a static final constant or non-public and provide accessors if needed.(ÊÖÒ
-O
-squid:S106"9Replace this use of System.out or System.err by a logger.(§Çï·
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(Êóà‚ÿÿÿÿÿ
-@squid:S1940")Use the opposite operator ("!=") instead.(‡€Ë–
+squid:S106"9Replace this use of System.out or System.err by a logger.(‚ò‹”ıÿÿÿÿ
 T
-squid:S106"9Replace this use of System.out or System.err by a logger.(‚ò‹”ıÿÿÿÿ
+squid:S106"9Replace this use of System.out or System.err by a logger.(Êóà‚ÿÿÿÿÿ
 O
-squid:S106"9Replace this use of System.out or System.err by a logger.(©‡Œİ
+squid:S106"9Replace this use of System.out or System.err by a logger.(©‡Œİ
 T
 squid:S106"9Replace this use of System.out or System.err by a logger.(‚òû—úÿÿÿÿ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(§Çï·

@@ -1,0 +1,23 @@
+
+c$squid:AssignmentInSubExpressionCheckB".Extract the assignment out of this expression.(íØÃùşÿÿÿÿ
+_squid:S2583B"CChange this condition so that it does not always evaluate to "true"(íØÃùşÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(««õúÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ…¸ûÿÿÿÿ
+nsquid:S00117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ü¼úÿÿÿÿ
+gsquid:S00116"ORename this field "SEXO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¹ıÎ
+O
+squid:S1060"9Replace this use of System.out or System.err by a logger.(”Áãø
+T
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ùƒó‡øÿÿÿÿ
+T
+squid:S1065"9Replace this use of System.out or System.err by a logger.(·¤âïùÿÿÿÿ
+Xsquid:S1126:"AReplace this if-then-else statement by a single return statement.(’õÑ‚
+Usquid:S1854B"9Remove this useless assignment to local variable "mayor".(íØÃùşÿÿÿÿ
+Usquid:S1854A"9Remove this useless assignment to local variable "mayor".(™„ëñüÿÿÿÿ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(œÙ®æúÿÿÿÿ
+T
+squid:S106E"9Replace this use of System.out or System.err by a logger.(ï¿Ûúÿÿÿÿ
+Gsquid:S1172H"+Remove this unused method parameter "sexo".(®ã®†úÿÿÿÿ
+5squid:S2119["Save and re-use this "Random".(¡Å”¦
+\squid:UnusedPrivateMethodH"2Remove this unused private "comprobarSexo" method.(®ã®†úÿÿÿÿ
