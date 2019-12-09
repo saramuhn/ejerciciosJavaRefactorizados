@@ -3,18 +3,28 @@ package com.company;
 import java.util.Scanner;
 
 public class AreaCirculo {
-    Scanner sc = new Scanner(System.in);
-    public void ingresarNumeros(){
-        String radioCirculo;
-        System.out.print("Ingrese radio del círculo: ");
-        radioCirculo = sc.nextLine();
-        calcularAreaCirculo(radioCirculo);
+    private double radioCirculo;
+    private double areaCirculo;
 
+    Scanner sc = new Scanner(System.in);
+
+    public void ingresarRadioCirculo() {
+        System.out.print("Ingrese radio del círculo: ");
+        radioCirculo = sc.nextDouble();
     }
-    public void calcularAreaCirculo(String radioCirculo){
-        Double areaCirculo;
-        areaCirculo= (Math.PI*Math.pow(Double.parseDouble(radioCirculo),2));
-        System.out.println("El área del círculo es: "+areaCirculo);
+
+    public void calcularAreaCirculo() {
+        areaCirculo = (Math.PI * Math.pow(radioCirculo, 2));
+    }
+
+    public void mostrarAreaCirculo() {
+        System.out.println("El área del círculo es: " + areaCirculo);
+    }
+
+    public void ejecutarCalculoAreaCirculo(){
+        ingresarRadioCirculo();
+        calcularAreaCirculo();
+        mostrarAreaCirculo();
     }
 
 }

@@ -83,7 +83,7 @@ public class Main {
                     continue;
                 case AREA_CIRCULO:
                     AreaCirculo areaCirculo = new AreaCirculo();
-                    areaCirculo.ingresarNumeros();
+                    areaCirculo.ejecutarCalculoAreaCirculo();
                     continue;
                 case PRECIO_IVA:
                     PrecioIVA precioIVA = new PrecioIVA();
