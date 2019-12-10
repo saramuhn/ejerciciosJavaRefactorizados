@@ -3,17 +3,21 @@ package com.ejercicios;
 import java.util.Scanner;
 
 public class DiaLaboral {
+    private String diaSemana;
     Scanner sc = new Scanner(System.in);
 
-    public void pedirDiaSemana() {
-        String diaSemana;
-        System.out.print("Ingrese día de la semana: ");
-        diaSemana = sc.nextLine().toUpperCase();
-        comprobarDiaLaboral(diaSemana);
+    public DiaLaboral() {
+        pedirDiaSemana();
+        comprobarDiaLaboral();
     }
 
-    public void comprobarDiaLaboral(String diaSemana) {
-        while (true) {
+    public void pedirDiaSemana() {
+        System.out.print("Ingrese día de la semana: ");
+        diaSemana = sc.nextLine().toUpperCase();
+    }
+
+    public void comprobarDiaLaboral() {
+
             switch (diaSemana) {
                 case "LUNES":
                 case "MARTES":
@@ -22,19 +26,17 @@ public class DiaLaboral {
                 case "JUEVES":
                 case "VIERNES":
                     System.out.println("Día laboral");
-                    pedirDiaSemana();
-                    continue;
+                   break;
                 case "SABADO":
                 case "SÁBADO":
                 case "DOMINGO":
                     System.out.println("Día no laboral");
-                    pedirDiaSemana();
-                    continue;
-                default:
                     break;
-            }
-        }
+                default:
+                    System.out.println("Día no válido");
+                    break;
 
+        }
     }
 
 

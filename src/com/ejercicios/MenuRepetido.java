@@ -5,6 +5,10 @@ import java.util.Scanner;
 public class MenuRepetido {
     Scanner sc = new Scanner(System.in);
 
+    public MenuRepetido(){
+        mostrarMenu();
+        validarMenu();
+    }
     public void validarMenu() {
         int opcionMenu;
         boolean salir = true;
@@ -17,14 +21,12 @@ public class MenuRepetido {
                 case 5:
                 case 6:
                 case 7:
-                    opcionMenu = mostrarMenu();
                     continue;
                 case 8:
                     salir = false;
                     break;
                 default:
                     System.out.println("Opción incorrecta \n");
-                    opcionMenu = mostrarMenu();
                     continue;
             }
         }

@@ -16,9 +16,9 @@ public class EjercicioSeleccion {
     private static final int PARES_IMPARES_FOR = 6;
     private static final int NUMERO_MAYOR_CERO = 7;
     private static final int DIA_LABORAL = 8;
-    private static final int CAMBIAR_VOCALES = 9;
+    private static final int CAMBIAR_VOCALES_CONCATENAR = 9;
     private static final int ELIMINAR_ESPACIOS = 10;
-    private static final int LONGITUD_FRASE_CONCATENAR = 11;
+    private static final int LONGITUD_FRASE_VOCALES = 11;
     private static final int PALABRAS_IGUALES = 12;
     private static final int FORMATO_FECHA = 13;
     private static final int NUMERO_DOS_EN_DOS = 14;
@@ -30,7 +30,7 @@ public class EjercicioSeleccion {
 
 
     public static void mostrarMenu() {
-        System.out.println("******** Ejercicios de JAVA ********");
+        System.out.println("\n******** Ejercicios de JAVA ********");
         System.out.println("1- Comparar números estáticos.");
         System.out.println("2- Comparar números ingresados por consola.");
         System.out.println("3- Calcular área de un círculo.");
@@ -53,85 +53,57 @@ public class EjercicioSeleccion {
 
     }
 
-    public static void seleccionEjercicio(int opcionMenu) {
+    public static void seleccionEjercicio() {
+        int opcionMenu;
         do {
+            opcionMenu=obtenerOpcionMenu();
             switch (opcionMenu) {
                 case NUMEROS_ESTATICOS:
                     NumeroEstatico numeroEstatico = new NumeroEstatico();
                     numeroEstatico.compararNumeros();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case NUMEROS_CONSOLA:
                     NumeroConsola numeroConsola = new NumeroConsola();
-                    numeroConsola.ingresarNumeros();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case AREA_CIRCULO:
                     AreaCirculo areaCirculo = new AreaCirculo();
-                    areaCirculo.ejecutarCalculoAreaCirculo();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case PRECIO_IVA:
                     PrecioIVA precioIVA = new PrecioIVA();
-                    precioIVA.ingresarPrecio();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case PARES_IMPARES_WHILE:
                     ParImparWhile paresImparesWhile = new ParImparWhile();
-                    paresImparesWhile.mostrarNumerosImpares();
-                    paresImparesWhile.mostrarNumerosPares();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case PARES_IMPARES_FOR:
                     ParImparFor parImparFor = new ParImparFor();
-                    parImparFor.mostrarNumerosImpares();
-                    parImparFor.mostrarNumerosPares();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case NUMERO_MAYOR_CERO:
                     NumeroMayorCero numeroMayorCero = new NumeroMayorCero();
                     numeroMayorCero.comprobarNumero();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case DIA_LABORAL:
                     DiaLaboral diaLaboral = new DiaLaboral();
-                    diaLaboral.pedirDiaSemana();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
-                case CAMBIAR_VOCALES:
+                case CAMBIAR_VOCALES_CONCATENAR:
                     Vocal vocal = new Vocal();
-                    vocal.cambiarVocales();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case ELIMINAR_ESPACIOS:
                     SinEspacio sinEspacio = new SinEspacio();
-                    sinEspacio.ingresarFrase();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
-                case LONGITUD_FRASE_CONCATENAR:
+                case LONGITUD_FRASE_VOCALES:
                     Frase frase = new Frase();
-                    frase.ingresarFrase();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case PALABRAS_IGUALES:
                     Palabra palabra = new Palabra();
-                    palabra.pedirPalabras();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case FORMATO_FECHA:
                     FormatoFecha formatoFecha = new FormatoFecha();
-                    formatoFecha.cambiarFormatoFecha();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case NUMERO_DOS_EN_DOS:
                     NumeroDosEnDos numeroDosEnDos = new NumeroDosEnDos();
-                    numeroDosEnDos.pedirNumero();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case MENU_REPETIDO:
                     MenuRepetido menuRepetido = new MenuRepetido();
-                    menuRepetido.validarMenu();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case PERSONA:
                     EjecutableP persona = new EjecutableP();
@@ -140,12 +112,10 @@ public class EjercicioSeleccion {
                 case ELECTRODOMESTICO_LAVADORA_TELEVISOR:
                     EjecutableE electrodomestico = new EjecutableE();
                     electrodomestico.ejecutar();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 case SERIE_VIDEOJUEGO:
                     EjecutableSV dieciocho = new EjecutableSV();
                     dieciocho.ejecutar();
-                    opcionMenu=obtenerOpcionMenu();
                     continue;
                 default:
                     opcionMenu = SALIR;

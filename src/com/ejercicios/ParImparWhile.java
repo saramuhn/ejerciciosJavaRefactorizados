@@ -1,32 +1,32 @@
 package com.ejercicios;
 
-public class ParImparWhile {
-    public int limiteInferior=1;
-    public int limiteSuperior=100;
+import java.util.ArrayList;
 
-    public void mostrarNumerosPares(){
-        int numerosPares;
-        int auxiliarContador=limiteInferior;
-        System.out.println("Los números pares de "+limiteInferior+" hasta "+limiteSuperior+" son: ");
-        while (auxiliarContador!=limiteSuperior+1){
-            if(auxiliarContador%2==0){
-                numerosPares=auxiliarContador;
-                System.out.print(numerosPares +"\t");
-            }
+public class ParImparWhile {
+    private static final int LIMITE_INFERIOR = 1;
+    private static final int LIMITE_SUPERIOR = 100;
+    private ArrayList<Integer> numerosPares = new ArrayList<>();
+    private ArrayList<Integer> numerosImpares = new ArrayList<>();
+
+    public ParImparWhile(){
+        guardarNumeros();
+        mostrarNumeros();
+    }
+    public void guardarNumeros() {
+        int auxiliarContador = LIMITE_INFERIOR;
+        while (auxiliarContador != LIMITE_SUPERIOR + 1) {
+            if (auxiliarContador % 2 == 0)
+                numerosPares.add(auxiliarContador);
+            else
+                numerosImpares.add(auxiliarContador);
             auxiliarContador++;
         }
     }
-    public void mostrarNumerosImpares(){
-        int numerosImpares;
-        int auxiliarContador=limiteInferior;
-        System.out.println("\nLos números impares de "+limiteInferior+" hasta "+limiteSuperior+" son: ");
-        while (auxiliarContador!=limiteSuperior+1){
-            if(!(auxiliarContador%2==0)){
-                numerosImpares=auxiliarContador;
-                System.out.print(numerosImpares +"\t");
-            }
-            auxiliarContador++;
-        }
+
+    public void mostrarNumeros() {
+        ParImparFor parImparFor = new ParImparFor(numerosPares, numerosImpares);
+        parImparFor.mostrarNumeros();
     }
+
 
 }

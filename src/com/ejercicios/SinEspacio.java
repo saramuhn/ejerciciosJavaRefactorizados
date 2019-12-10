@@ -4,15 +4,17 @@ import java.util.Scanner;
 
 public class SinEspacio {
     Scanner sc = new Scanner(System.in);
+    private String frase;
 
+    public SinEspacio(){
+        ingresarFrase();
+        quitarEspacios();
+    }
     public void ingresarFrase(){
-        String frase;
         System.out.print("Ingrese frase: ");
         frase=sc.nextLine();
-        quitarEspacios(frase);
     }
-    public void quitarEspacios(String frase){
-
+    public void quitarEspacios(){
         System.out.println(frase.replaceAll("\\s",""));
     }
 

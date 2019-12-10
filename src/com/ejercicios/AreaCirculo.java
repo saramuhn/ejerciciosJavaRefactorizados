@@ -7,6 +7,11 @@ public class AreaCirculo {
     private double areaCirculo;
 
     Scanner sc = new Scanner(System.in);
+    public AreaCirculo(){
+        ingresarRadioCirculo();
+        calcularAreaCirculo();
+        mostrarAreaCirculo();
+    }
 
     public void ingresarRadioCirculo() {
         System.out.print("Ingrese radio del círculo: ");
@@ -21,10 +26,6 @@ public class AreaCirculo {
         System.out.println("El área del círculo es: " + areaCirculo);
     }
 
-    public void ejecutarCalculoAreaCirculo(){
-        ingresarRadioCirculo();
-        calcularAreaCirculo();
-        mostrarAreaCirculo();
-    }
+
 
 }
