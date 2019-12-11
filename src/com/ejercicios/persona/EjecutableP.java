@@ -3,12 +3,11 @@ package com.ejercicios.persona;
 import java.util.Scanner;
 
 public class EjecutableP {
+    private static Scanner sc = new Scanner(System.in);
+
     public static void main(String[] args) {
         ejecutar();
     }
-
-    private static Scanner sc = new Scanner(System.in);
-
 
     public static void ejecutar() {
         Persona personaEstandar = ingresoDatosCompletoPersona();
