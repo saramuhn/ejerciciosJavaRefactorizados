@@ -1,6 +1,0 @@
-
-‰"squid:ClassVariableVisibilityCheck"VMake resolucion a static final constant or non-public and provide accessors if needed.(¼Öûÿÿÿÿ
-‰"squid:ClassVariableVisibilityCheck"[Make sintonizadorTDT a static final constant or non-public and provide accessors if needed.(éı¸ø
-rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¶ü‡
-Qsquid:S1161":Add the "@Override" annotation above this method signature(ó‘ä¸
-Dsquid:S1125 "(Remove the literal "true" boolean value.(Ø´ûÛüÿÿÿÿ
