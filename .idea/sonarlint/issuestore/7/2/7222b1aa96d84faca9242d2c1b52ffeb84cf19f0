@@ -1,0 +1,9 @@
+
+…"squid:ClassVariableVisibilityCheck"RMake titulo a static final constant or non-public and provide accessors if needed.(Ù™¢ùÿÿÿÿ
+Š"squid:ClassVariableVisibilityCheck"\Make numeroTemporadas a static final constant or non-public and provide accessors if needed.(òÜãİ
+ˆ"squid:ClassVariableVisibilityCheck"UMake entregado a static final constant or non-public and provide accessors if needed.(ŸÍ¤³úÿÿÿÿ
+€"squid:ClassVariableVisibilityCheck"RMake genero a static final constant or non-public and provide accessors if needed.(ûÇÿÈ
+†"squid:ClassVariableVisibilityCheck"SMake creador a static final constant or non-public and provide accessors if needed.(ÀŞ‡¥øÿÿÿÿ
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(çÁìã
+Psquid:S1854S"9Remove this useless assignment to local variable "serie".(´€„ë
+Asquid:S1481S"*Remove this unused "serie" local variable.(´€„ë

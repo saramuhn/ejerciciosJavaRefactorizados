@@ -1,9 +1,0 @@
-
-…"squid:ClassVariableVisibilityCheck"RMake titulo a static final constant or non-public and provide accessors if needed.(Ù™¢ùÿÿÿÿ
-"squid:ClassVariableVisibilityCheck"ZMake horasEstimadas a static final constant or non-public and provide accessors if needed.(ëÞÌ„üÿÿÿÿ
-ˆ"squid:ClassVariableVisibilityCheck"UMake entregado a static final constant or non-public and provide accessors if needed.(ŸÍ¤³úÿÿÿÿ
-€"squid:ClassVariableVisibilityCheck"RMake genero a static final constant or non-public and provide accessors if needed.(ûÇÿÈ
-‡"squid:ClassVariableVisibilityCheck"TMake compania a static final constant or non-public and provide accessors if needed.(ÌÔ“—øÿÿÿÿ
-qsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(àÞ¸b
-Usquid:S1854U">Remove this useless assignment to local variable "videojuego".(Š“ÇÀ
-Fsquid:S1481U"/Remove this unused "videojuego" local variable.(Š“ÇÀ

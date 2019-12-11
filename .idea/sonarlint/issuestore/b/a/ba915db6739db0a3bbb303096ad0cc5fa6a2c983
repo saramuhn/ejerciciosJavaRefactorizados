@@ -1,0 +1,13 @@
+
+5squid:S2119["Save and re-use this "Random".(¡Å”¦
+_squid:S2583B"CChange this condition so that it does not always evaluate to "true"(íØÃùşÿÿÿÿ
+Gsquid:S1172H"+Remove this unused method parameter "sexo".(®ã®†úÿÿÿÿ
+nsquid:S00117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“ü¼úÿÿÿÿ
+Usquid:S1854B"9Remove this useless assignment to local variable "mayor".(íØÃùşÿÿÿÿ
+Xsquid:S1126:"AReplace this if-then-else statement by a single return statement.(’õÑ‚
+c$squid:AssignmentInSubExpressionCheckB".Extract the assignment out of this expression.(íØÃùşÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(««õúÿÿÿÿ
+nsquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒ…¸ûÿÿÿÿ
+Usquid:S1854A"9Remove this useless assignment to local variable "mayor".(™„ëñüÿÿÿÿ
+\squid:UnusedPrivateMethodH"2Remove this unused private "comprobarSexo" method.(®ã®†úÿÿÿÿ
+gsquid:S00116"ORename this field "SEXO" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º¹ıÎ
