@@ -1,8 +1,12 @@
-package com.ejercicios.electrodomesticoLavadoraTelevisor;
+package com.ejercicios.electrodomestico;
 
 public class Television extends Electrodomestico {
-    public double resolucion=20;
-    public boolean sintonizadorTDT=false;
+    protected double resolucion=20;
+    protected boolean sintonizadorTDT=false;
+    private static final int RESOLUCION_ESTANDAR=40;
+    private static final double INCREMENTO_PRECIO=1.30;
+    private static final int PRECIO_SINTONIZADOR=50;
+
 
     public Television() {
     }
@@ -27,10 +31,10 @@ public class Television extends Electrodomestico {
 
     public double precioFinal(){
         double precio=super.precioFinal();
-        if (resolucion>=40)
-            precio=precio*1.30;
-        if(sintonizadorTDT==true)
-            precio=precio+50;
+        if (resolucion>=RESOLUCION_ESTANDAR)
+            precio=precio*INCREMENTO_PRECIO;
+        if(sintonizadorTDT)
+            precio=precio+PRECIO_SINTONIZADOR;
 
         return precio;
     }

@@ -1,6 +1,6 @@
 package com.ejercicios;
 
-import com.ejercicios.electrodomesticoLavadoraTelevisor.EjecutableE;
+import com.ejercicios.electrodomestico.EjecutableE;
 import com.ejercicios.persona.EjecutableP;
 import com.ejercicios.serieVideojuego.EjecutableSV;
 

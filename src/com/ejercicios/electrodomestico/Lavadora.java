@@ -1,7 +1,9 @@
-package com.ejercicios.electrodomesticoLavadoraTelevisor;
+package com.ejercicios.electrodomestico;
 
 public class Lavadora extends Electrodomestico {
-    public double carga= 5;
+    protected double carga= 5;
+    private static final int CARGA=30;
+    private static final int PRECIO_CARGA=50;
 
     public Lavadora() {
     }
@@ -21,8 +23,8 @@ public class Lavadora extends Electrodomestico {
 
     public double precioFinal(){
         double precio=super.precioFinal();
-        if(carga>=30)
-            precio=precio+50;
+        if(carga>=CARGA)
+            precio=precio+PRECIO_CARGA;
 
         return precio;
     }

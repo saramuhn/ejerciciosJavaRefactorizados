@@ -1,4 +1,4 @@
-package com.ejercicios.electrodomesticoLavadoraTelevisor;
+package com.ejercicios.electrodomestico;
 
 public class EjecutableE {
     public void main(String[] args) {
